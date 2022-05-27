@@ -3,7 +3,7 @@
 ###### Authentification 
 
 variable "profile" {
-  default     = "devlab"
+  default     = "terraform"
   description = "AWS profile to be used used, configured using aws configure --porfile <profile name>"
 }
 
@@ -24,7 +24,7 @@ variable "azs" {
 }
 
 variable "vpc_name" {
-  default     = "george-iamza-lab-VPC"
+  default     = "iamzanet-sandobx-VPC"
   description = "VPC Name"
 }
 
@@ -48,7 +48,7 @@ variable "zone" {
 }
 
 variable "cluster_name" {
-  default     = "george-lab"
+  default     = "iamzanet-lab"
   description = "EKS Cluster Name"
 }
 
